@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese valor 1"
+        />
+    <EditText
+        android:id="@+id/Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese valor 2"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="Sumar"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="Restar"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="Multiplicar"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/div"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="Dividir"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00"
+        android:gravity="center"
+        android:textSize="130sp"
+
+        />
+</LinearLayout>
